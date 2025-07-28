@@ -1,0 +1,37 @@
+<div class="button">
+    <h1 class = "text">ТЫК!</h1>
+</div>
+
+<script type="module">
+    import { animate, press } from "https://cdn.jsdelivr.net/npm/motion@12.23.0/+esm"
+
+    press(".button", (element) => {
+        animate(element, { scale: 0.8 }, { type: "spring"})
+
+        return () =>
+            animate(element, { scale: 1 }, { type: "spring"})
+    })
+</script>
+
+<style>
+    .button {
+        width: 300px;
+        height: 100px;
+        position: absolute;
+        top: calc(50% - 50px);
+        left: calc(50% - 150px);
+        background-color: #B32428;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .button:focus-visible {
+        outline-offset: 2px;
+    }
+
+    .text {
+        user-select: none;
+        margin:30px;
+        text-align: center;
+    }
+</style>

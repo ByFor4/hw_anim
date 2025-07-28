@@ -1,0 +1,252 @@
+.modal_wind {
+    width: 640px;
+    height: 600px;
+    transform: rotate(0deg);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);
+    background: var(--Background-Card, #FFFFFF);
+}
+
+.header_frame {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 640px;
+    height: 64px;
+    min-height: 64px;
+    border-bottom-width: 1px;
+    gap: 8px;
+    transform: rotate(0deg);
+    background: var(--Background-Card, rgba(255, 255, 255, 1));
+}
+
+.header_text {
+    font-family: TT Positive;
+    width: 556px;
+    height: 28px;
+    transform: rotate(0deg);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.exit_btn {
+    display: flex;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    gap: 4px;
+    transform: rotate(0deg);
+    opacity: 1;
+    border-radius: 8px;
+    padding: 8px;
+    align-items: center;
+}
+
+.exit_icon {
+    width: 16px;
+    height: 16px;
+    gap: 4px;
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 464px;
+    gap: 20px;
+    transform: rotate(0deg);
+    opacity: 1;
+    padding-right: 32px;
+    padding-left: 32px;   
+}
+
+.input_field {
+    display: flex;
+    flex-direction: column;
+    width: 576px;
+    height: 60px;
+    gap: 8px;
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+.lable_frame {
+    width: 576px;
+    height: 20px;
+    transform: rotate(0deg);
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.6%;  
+}
+
+.span{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.6%;  
+    color:  rgba(138, 143, 168, 1);
+}
+
+.control {
+    width: 576px;
+    height: 20px;
+    border-radius: 8px;
+    opacity: 1;
+    border-width: 1px;
+    padding-top: 6px;
+    padding-right: 4px;
+    padding-bottom: 6px;
+    padding-left: 12px; 
+    background: var(--Background-Bg, rgba(255, 255, 255, 1));
+    border: 1px solid var(--Line-Contrast-fade, rgba(196, 199, 212, 1))
+}
+
+.control_text {
+    width: 576px;
+    height: 20px;
+    transform: rotate(0deg);
+    opacity: 1;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.6%; 
+    color:  rgba(138, 143, 168, 1);
+}
+
+.add_friend {
+    display: flex;
+    width: 155px;
+    height: 32px;
+    border-radius: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transform: rotate(0deg);
+    opacity: 1; 
+}
+
+.add_btn {
+    display: flex;
+    justify-content: center;
+    width: 22px;
+    height: 16px;
+    padding-right: 4px;
+    padding-left: 2px;
+    transform: rotate(0deg);
+    opacity: 1;
+}
+.add_icon {
+    width: 16px;
+    height: 16px;
+    transform: rotate(0deg);
+    opacity: 1;  
+}
+
+.dropdown{
+    display: flex;
+    justify-content: baseline;
+}
+.add_friend_text {
+    height: 20px;
+    transform: rotate(0deg);
+    opacity: 1; 
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.6%;
+    text-align: center;
+    color: rgba(33, 34, 44, 1);
+}
+
+.dropdown_btn {
+    display: flex;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    gap: 4px;
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+.dropdown_icon {
+    width: 16px;
+    height: 16px;
+    transform: rotate(0deg);
+    opacity: 1; 
+}
+
+.left {
+    width: 576px;
+    height: 32px;
+    display: flex;
+    gap: 16px;
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+.left_button {
+    width: 67px;
+    height: 32px;
+    opacity: 1;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+
+    background: var(--Background-Contrast-fade, #E2E3E9);
+}
+
+.left_button_text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.006em;
+    text-align: center;
+    color: var(--Foreground-Contrast, #21222C);
+}
+
+.footer {
+    display: flex;
+    width: 640px;
+    height: 72px;
+    padding-right: 32px;
+    padding-left: 32px;
+    gap: 24px;
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+.right_button {
+    width: 79px;
+    height: 32px;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transform: rotate(0deg);
+    opacity: 1;
+    border-radius: 8px;
+    background: var(--Background-Contrast, #363949);
+}
+
+.right_button_text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.006em;
+    text-align: center;
+    color: var(--Foreground-On-contrast, #FFFFFF);
+}
